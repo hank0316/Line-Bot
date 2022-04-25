@@ -23,15 +23,15 @@ from linebot.models import (
 )
 
 app = Flask(__name__)
-# channel_access_token = os.getenv("CHANNEL_ACCESS_TOKEN", None)
-# channel_secret = os.getenv("CHANNEL_SECRET", None)
+channel_access_token = os.getenv("CHANNEL_ACCESS_TOKEN", None)
+channel_secret = os.getenv("CHANNEL_SECRET", None)
 
-# if channel_access_token is None or channel_secret is None:
-    # print("Please make sure that CHANNEL_ACCESS_TOKEN & CHANNEL_SECRET are both in your environment variable.")
-    # exit(1)
+if channel_access_token is None or channel_secret is None:
+    print("Please make sure that CHANNEL_ACCESS_TOKEN & CHANNEL_SECRET are both in your environment variable.")
+    exit(1)
 
-linebot_api = LineBotApi("78jU0vU39l5DQg1lgllyOssB3nh+e1SZzZ7wrGZk4BF80JARZWq9j9OmaCKgPwFDr0hePiFM4QW1aSiDlE0fOKSRASfLmC3B6ut9E/Hn+IWNLeZsO7TQJVu47NoGC3JxyI0eL5vDjfuiW2q25sZxogdB04t89/1O/w1cDnyilFU=")
-handler = WebhookHandler("cef1f3b9aa496acf6c10020b71c5d2e6")
+linebot_api = LineBotApi(channel_access_token)
+handler = WebhookHandler(channel_secret)
 
 # Get information from LINE when someone access https://hank_interview.herokuapp.com/callback
 @app.route("/callback", methods=['POST'])
