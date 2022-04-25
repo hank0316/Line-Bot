@@ -5,7 +5,12 @@ A Line Bot implementation.
 
 **Make sure that your channel access token and channel secret are in the environment varable.**
 
-**If not, you can try: `export CHANNEL_ACCESS_TOKEN={"CHANNEL_ACCESS_TOKEN"} && export CHANNEL_SECRET={"CHANNEL_SECRET"}` **
+**If not, you can try:**
+
+```bash
+export CHANNEL_ACCESS_TOKEN={"CHANNEL_ACCESS_TOKEN"}
+export CHANNEL_SECRET={"CHANNEL_SECRET"}
+```
 
 You can refers to the rich menu for quick guide.
 
