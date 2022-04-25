@@ -12,7 +12,7 @@ export CHANNEL_ACCESS_TOKEN={"CHANNEL_ACCESS_TOKEN"}
 export CHANNEL_SECRET={"CHANNEL_SECRET"}
 ```
 
-You can refers to the rich menu for quick guide.
+You can refers to the **rich menu** for quick guide.
 
 * Type `introduction` to view my self-introduction.
 * Type `project` to view my side projects.
