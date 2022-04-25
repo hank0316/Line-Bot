@@ -1,0 +1,26 @@
+{
+    "chinese": {
+        "greeting": "您好",
+        "follow": "我是林子瀚，目前就讀國立台灣大學資訊工程學系三年級，我很期待能夠加入LINE的大家庭，希望能夠透過實習來了解LINE的職場環境，與許多的前輩與同儕們一起學習、合作開發，並獲得寶貴的職場實習體驗。",
+        "myself": "我來自新北市汐止區，高中很幸運地考上建中，在那裡我見識到了很多厲害的人做事的方式與求學的態度，建中的自由學風也使我能夠在高中三年快樂且自在的學習。在大學期間我也認識了更多厲害的人們，和高中不同的是，他們可能來自全台各地，對我來說，與這些來自各地的人們交流是珍貴的體驗，和他們互動也往往都能有不同的收穫。\n\n從大一下開始必修課變得很重，但因為在系館的地下室有一整層的開放討論空間，所以我常常會在那裡和同學們一起討論作業。在這個過程裡面我獲得了很多，像是同學對一個問題的思路，如何透過討論完成一份困難的作業等等。修這些課一方面除了培養學生的毅力（work load 真的很難又很重），也培養了我們解決問題的能力，可能是透過與同儕間的互相討論，亦或是上網自己找答案等等。\n\n在大二下的時候我接觸到了機器學習，那時候修了李宏毅教授的機器學習課程，我覺得我對這塊領域應該是相對於系統或網路來得有興趣。所以我在大三的時候就加了兩個機器學習相關的實驗室，一個是系上陳縕儂的實驗室，另一個則是李宏毅教授的實驗室，希望透過成為他們的專題生我能學習到很多 NLP 領域的知識。\n\n基於高中和大學時期的這些經驗和訓練，我也認為我在解決困難的任務時能夠努力的解決他們，不論是透過自行搜尋相關資訊、消化思考，或是和同儕們切磋討論。我希望我能透過 LINE 的實習了解實務上我的所學會如何應用到實際應用，並也希望能和不同的前輩或是同儕們切磋琢磨，一起討論與完成任務，我很期待能夠加入 LINE 這個大家庭！",
+        "unblock": "歡迎回來 QwQ",
+        "github": "這是我的github連結：https://github.com/hank0316",
+        "project": {
+            "intorduction": "這些是我參與過的 project：",
+            "challenge2020": "(1). 2020 資訊營 - The Eletro-Shock Game：\n\n這是我上大學以來的第一個 team project。我們系每年都會舉辦資訊營的活動，而其中一個環節叫做「Challenge」，我們會設計一個遊戲，讓每個小隊去實做遊戲角色的 AI，並在資訊營的最後一天舉辦比賽，讓小隊員的 AI 間彼此對決，並選出表現好的小隊進入最終環節 - 和我們所設計的魔王 AI 比賽。\n\n我們採用了 Python 和 PyGame 來製作這次的遊戲。遊戲的玩法很像任天堂的電玩明星大亂鬥，基本上會有一個 2D 的舞台，然後會有4個 AI 在舞台上。我們會提供 API 提供資訊給 AI，像是目前場地上的道具位置、種類，或是敵人的位置等等，那 AI 會需要在每個 tick 根據這些資訊，讓 AI 做出對應的操作，如移動、攻擊等等。詳細的圖文說明可以參考下面的連結。\n\n在這個 project 中我主要負責撰寫一些 API，並對 API 以及遊戲進行等做一些測試。在這次的 project 中我獲得了很多團隊合作的經驗，包括任務的分配、討論，進度的同步（Sync.），團隊開發的經驗等等，和大家一起做出一個遊戲也讓我獲得了很多成就感。\n\n這是營期對遊戲介紹的簡報：https://hackmd.io/@uqzWTXyyTk6IYTBwcPwnoA/S1ZTEdKJw#/\n\n這是遊戲的程式碼 repo：https://github.com/ktpss95112/Challenge2020?fbclid=IwAR38ZN59-ip6SbHb4ubUHRkKqqAOGNLEyhTUMoJjA6RqxSjC7C0cLxSlutw",
+            "web_programming_final": "(2). 網路服務程式設計 final project：\n\n我們這組時做了一個記事用的行事曆，能夠支援個人註冊、登入登出，建立與加入群組，設置私人或是群組共享的代辦事項等等。\n\n我們使用的套件有：\n\n前端：React.js, Material UI, Axios\n\n後端：Mongo DB, Experss js, Web Socket, Heroku\n\n這是我們的 repo：https://github.com/paulhuangkm/webprogramming_final"
+        },
+        "lab": "這是我目前待的Lab：\n\n(1). Machine Intelligence & Understanding Laboratory：指導教授為資訊系陳縕儂教授。輸入「miulab」查看詳細內容。\n\n(2). Speech Processing & Machine Learning Laboratory：指導教授為電機系李宏毅教授。輸入「speech lab」查看詳細內容。",
+        "speech lab": {
+            "introduction": "我從2021年10月開始加入宏毅教授的實驗室，到目前為止做過了這些事情：",
+            "HEAR": "(1). HEAR 2021 NeurIPS Challenge：\n\n一個由 NeurIPS 舉辦的 NLP 比賽。現今在 NLP 界，self-supervised pre-trained model 十分的盛行，在 text 和 speech 的 tasks 都獲得了巨大的進展。\n\n然而在 audio data 方面，因為涉及的面向太過廣泛，主辦方希望挑戰者能夠設計出一個 framework，能夠從 input audio 抽取出夠好的 representation，以在不同類別的 downstream task 中獲得好的表現。\n\n我和朋友們設計出的 framework 在這個比賽中獲得了很不錯的成績，在2021年12月的 NeurIPS 2021 Conference 和 NeurIPS Taipei Meetup 2021 上皆有發表 lightening talk，和大家分享我們的 framework。\n\n我們也預計將我們的成果發表成論文投到今年的 PMLR。\n\n這是比賽的官方網址，有興趣可以參考：https://neuralaudio.ai/hear2021-holistic-evaluation-of-audio-representations.html\n\n而這是我們 presentation 時的簡報：https://docs.google.com/presentation/d/1uVSJnQdMhAWl4mIkvDbDijRoSs2BrwBxe1GQtqfkpHE/edit#slide=id.p\n\n最後是我們程式碼的 github repo：https://github.com/tony10101105/HEAR-2021-NeurIPS-Challenge---NTU",
+            "ML TA": "(2). 2022 機器學習課程 TA：\n\n我在這學期宏毅教授開設的機器學習課程中擔任 TA，負責出本學期的作業4 - Speaker Recognition。\n\n關於作業的內容可以參考這個投影片：https://speech.ee.ntu.edu.tw/~hylee/ml/ml2022-course-data/Machine%20Learning%20HW4.pdf\n\n作業的講解影片：https://www.youtube.com/watch?v=-KbD40w9-Io\n\nKaggle 連結：https://www.kaggle.com/c/ml2022spring-hw4\n\n以及本學期機器學習課程的網站：https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php",
+            "DLHLP": "(3). 深度學習與人類語言處理：\n\n這個部份是取了宏毅教授在2020年開設的課程 - 深度學習與人類語言處理 的教學內容為基礎，帶領專題生們認識在 NLP Speech 領域中的 tasks。\n\n進行的方式為分組進行，每兩週會指派一份作業，同學們可以根據作業助教的引導，去完成一些初步的實驗，像是跑跑該 task 經典的 framework 等等。之後同學們可以自行往想要的方向去嘗試不同的實做，像是更換 model 或是 framework 等等。並在兩週後的 deadline 上台分享小組所做的嘗試與發現。\n\n關於2020年的課程網站：https://speech.ee.ntu.edu.tw/~hylee/dlhlp/2020-spring.php"
+        },
+        "miulab": {
+            "intorduction": "我從2021年9月開始加入縕儂教授的實驗室。在 miulab 固定每週都會有 meeting，主要是請同學們上台報告 paper，針對 paper 想要解決的問題，paper 提出的方法、實驗，以及這篇 paper 的 contribution 做介紹。",
+            "comparison_MTL_transfer": " Meeting 有時也會要求小組做研究主題的進度回報。我們這組做的主題是 Muti-task Learning (MTL) 和 Transfer Learning 的比較。這兩種都是 machine learning 的方法之一。前者會透過同時學習多個任務，使 model 能在 target task 上獲得較好的表現。而後者則是一次只學習一個任務，最後在 fine-tune 在 target task 上面。\n\n這兩者都是透過其他的任務來輔助 model 在 target task 上面的表現，但兩者在訓練上的成本，訓練後的 performance 會有不同。我們希望透過一系列實驗，找出這兩種不同的方法適用的情境，並嘗試釐清輔助任務和 target task 之間的關聯性，以便未來訓練時能夠快速且正確的選出輔助用的任務。\n\n實驗目前仍然在進行中，我們預計在今年六月的大學部專題成果展參展，向大家分享一下我們做的實驗結果與發現。"
+        },
+        "unknown": "unknown"
+    }
+}
